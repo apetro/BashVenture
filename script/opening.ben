@@ -1,0 +1,24 @@
+You've gone to sleep before. Lots of times, in fact.
+But last night it was... different. You felt like you were
+moving - being transported somehow over a great distance.
+It felt like you were half awake, but unable to open your
+eyes. Finally, you hear your alarm. It's time to wake up.
+
+During this adventure, I will be your eyes and hands.
+Available commands are:
+
+'n' for north,
+'s' for south,
+'e' for east,
+'w' for west,
+'u' for use,
+'h' for hug.
+
+Ctrl-C quits.
+
+  - - -
+BashVenture was written by Ben Nunney. It's intended as
+a framework for other people to hack around with and extend.
+Hugs and love to Will Crowther and Don Woods for creating &
+porting the original Colossal Cave 'adventure' back in the 70s.
+  - - -
