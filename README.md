@@ -76,7 +76,9 @@ If you play the demo, you'll notice that one only has to log into the server and
 
 ### Allowing for Multiple Players
 
-If you're running BashVenture on a server (as per the demo) and want multiple people to be able to play the game at the same time, uncomment the appropriate section in ./adventure.sh and, if you don't already have it, install the following dependancies on your server:
+If you take a look at the ./adventure.sh script, you'll notice that multiple players are handled by the spinning up of a new game instance for each player connecting to the server. BashVenture has a dependancy on uuid-runtime here, as it generates a new, and temporary, unique identifier for each new player.
+
+The script checks to see whether the uuidgen runtime is installed and takes the appropriate action - so you don't need to edit the file to enable or disable multi-user support. All you need to do is ensure that the uuid-runtime dependancy is installed on your server (and inside your chroot jail if appropriate). To do this, simply install the following package:
 
 ```bash:
 sudo apt-get install uuid-runtime
