@@ -59,7 +59,7 @@ There are four types of file in this project, split into their respective subdir
 Everyone loves a bit of ASCII art, right? There are a few sample files with artwork included in here - but if you're building a game yourself and want to inclide more artwork, this is the place to put it. The title art is displayed in every room, for consistency.
 
 ### Rooms
-Every single 'room' in the game is stored in a seperate room file. This is a metaphorical room - it could be a wooded area, a cave, the moon, spaaaaaace, whatever. In this demo there are rooms and corridors - the files look identical. It's all in the wording.
+Every single 'room' in the game is stored in a separate room file. This is a metaphorical room - it could be a wooded area, a cave, the moon, spaaaaaace, whatever. In this demo there are rooms and corridors - the files look identical. It's all in the wording.
 
 ### Script
 While the room files have the majority of each room's special wording in them, the files in this folder contain longer bits of story and the introduction text. If you want to display large chunks of text from files in your game, the scripts folder is where you want to place them.
