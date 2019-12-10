@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/apetro/BashVenture)](https://repl.it/github/apetro/BashVenture)
+
 BashVenture - Adventure for Bash
 =================================
 
