@@ -30,7 +30,7 @@ while true; do
             exit ;;
 		u ) echo "You sit in the comfortable chair. It's like sitting on a cloud." ;;
 		h ) echo "You give yourself a hug, hoping that the books won't judge you." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h." ;;
     esac
 done
 
